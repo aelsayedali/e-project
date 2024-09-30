@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bText {
+    color: #1559b6;
+}
+
+/* start of categories section */
+.categoriesHome {
+    width: 90%;
+    margin: auto;
+}
+
+.cardImgDiv {
+    width: 90%;
+    margin: auto;
+}
+
+.imgEffect {
+    width: 100%;
+    transition: transform 750ms;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.imgEffect:hover {
+    transform: scale(1.1);
+}
+
+/* start of form section */
+
+.formInPut {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+form button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.test {
+    border: 2px solid red;
+}
+
+.inPutDiv {
+    border: 2px solid rgb(216, 216, 216);
+    width: 90%;
+}
